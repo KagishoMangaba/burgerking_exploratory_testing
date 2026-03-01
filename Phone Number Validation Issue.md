@@ -3,11 +3,11 @@ Module: Profile / Account Details
 Severity: High
 Type: Functional / Validation Defect
 
-🐞 Defect Title
+## 🐞 Defect Title
 
 - Phone number field accepts invalid input formats and behaves inconsistently.
 
-📌 Description
+## 📌 Description
 
 - The phone number input field accepts invalid formats such as:
 - Less than required digits (e.g., fewer than 10 digits)
@@ -19,7 +19,7 @@ However:
 - A string consisting only of zeros (e.g., 0000000000) is rejected.
 - This creates inconsistent validation behavior where clearly invalid formats are accepted, while other equally invalid formats are rejected.
 
-🔁 Steps to Reproduce
+## 🔁 Steps to Reproduce
 
 - Navigate to Profile section.
 - Edit phone number field.
@@ -29,12 +29,12 @@ However:
 - Save changes.
 - Enter 0000000000.
 
-❌ Actual Result
+## ❌ Actual Result
 
 - Short or mixed invalid inputs are accepted.
 - All-zero input is rejected.
 
-✅ Expected Result
+## ✅ Expected Result
 
 - The phone number field should:
 - Accept only numeric input.
@@ -44,7 +44,7 @@ However:
 
 Provide clear error messaging.
 
-🎯 Impact
+## 🎯 Impact
 
 - Data integrity issues.
 - Potential backend failures or SMS delivery issues.
