@@ -49,3 +49,16 @@ Provide clear error messaging.
 - Data integrity issues.
 - Potential backend failures or SMS delivery issues.
 - Poor user trust due to inconsistent validation logic.
+
+## Updata
+Phone Number Formatting Bug
+
+During exploratory testing, I discovered that the system did not automatically format South African phone numbers correctly. Numbers entered with a leading 0 were not converted to the international +27 format.
+
+✅ Status: Bug caught 
+✅ Current behavior: After the fix, phone numbers are now automatically formatted to +27 when a 0 is entered.
+
+https://github.com/user-attachments/assets/a72fb753-9406-4f4e-8499-47683dc3e923
+
+
+  
