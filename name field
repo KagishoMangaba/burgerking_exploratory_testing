@@ -1,0 +1,33 @@
+## Name Field Exploratory Testing Report
+Overview
+
+## This document summarizes the issues discovered during exploratory testing of the Name input field.
+
+
+
+## Defects Found
+
+- Period (.) Handling
+- Single period (.) is rejected.
+- Period with multiple spaces (e.g., " . ") is accepted.
+- Multiple consecutive periods (e.g., "............") are accepted.
+- Special Character Restrictions
+- Most other special characters are rejected.
+- Single Letters, Comma, and Period
+- Single letters are accepted.
+- Commas and periods are accepted inconsistently depending on spacing.
+- Birthday Field Issue
+
+- Cannot update the birthday field in certain scenarios (behavior inconsistent).
+
+## Example Behaviors
+
+- . → Rejected
+- " . " → Accepted
+- "............" → Accepte
+- O'Connor → Rejected
+- A → Accepted
+
+## impact
+
+- Data Integrity Risk: Inconsistent validation allows invalid names to be submitted.
