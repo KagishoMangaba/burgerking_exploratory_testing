@@ -21,3 +21,9 @@ Rapid multi-selection causes some items to deselect; only individual selection w
 **Severity / Priority:**  
 - Severity: Medium  
 - Priority: Medium
+
+
+https://github.com/user-attachments/assets/b6deabef-2e67-4bb4-9f75-098a820f63ce
+
+
+
