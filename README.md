@@ -1,5 +1,9 @@
 🍔 Burger King Mobile App – Exploratory Testing Report
 
+
+During exploratory testing, I identified multiple edge-case issues in the Name field affecting input validation and birthday updates. 
+Documented findings include examples, behavior inconsistencies, and potential impact on users and data integrity.
+
 ## 📌 Overview
 
 - This repository documents exploratory testing performed on the Burger King mobile application.
